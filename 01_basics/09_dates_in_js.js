@@ -39,17 +39,17 @@ let myCreatedDate = new Date("02-20-2024")
 
 
 
-let newDate = new Date()
-console.log(newDate.getDate());
-console.log(newDate.getDay());
-console.log(newDate.getFullYear());
-console.log(newDate.getHours());
-console.log(newDate.getMilliseconds());
-console.log(newDate.getMinutes());
-console.log(newDate.getMonth()+1);
-console.log(newDate.getSeconds());
-console.log(newDate.getTime());
-console.log(newDate.getTimezoneOffset());
+// let newDate = new Date()
+// console.log(newDate.getDate());
+// console.log(newDate.getDay());
+// console.log(newDate.getFullYear());
+// console.log(newDate.getHours());
+// console.log(newDate.getMilliseconds());
+// console.log(newDate.getMinutes());
+// console.log(newDate.getMonth()+1);
+// console.log(newDate.getSeconds());
+// console.log(newDate.getTime());
+// console.log(newDate.getTimezoneOffset());
 
 
 
@@ -58,3 +58,14 @@ console.log(newDate.getTimezoneOffset());
 
 
 
+// Complete Example
+
+let now = new Date();
+
+console.log("Year:", now.getFullYear());
+console.log("Month:", now.getMonth() + 1);
+console.log("Date:", now.getDate());
+console.log("Day:", now.getDay());
+console.log("Hours:", now.getHours());
+console.log("Minutes:", now.getMinutes());
+console.log("Seconds:", now.getSeconds());
