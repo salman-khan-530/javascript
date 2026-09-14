@@ -6,11 +6,11 @@ tinderUser.name = "Salman"
 tinderUser.isLogedIn = false
 
 // console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty("isLogedIn"));
+// console.log(tinderUser.hasOwnProperty("isLogedIn"));
 
 
 
@@ -46,3 +46,17 @@ const obj2 = {
 
 // console.log(obj3);
 
+
+
+// de structring in objects
+
+const course = {
+    coursename : "JS",
+    price : "1000",
+    courseInstructor : "Salman"
+}
+
+// console.log(course.courseInstructor);
+
+const {courseInstructor} = course
+console.log(courseInstructor);
